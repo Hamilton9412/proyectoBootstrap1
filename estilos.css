@@ -11,15 +11,34 @@ header h1
 
 main section h1
 {
-    margin: 30px 10px 10px 5px;
+    margin: 20px;
+    font-family: cursive;
 }
 main section p
 {
-    margin: 5px 10px 10px 10px;
+    margin: 20px;
     font-family: cursive;
 }
 main section a
 {
-    padding: 10px;
+    margin: 20px;
     font-family: cursive;
+}
+main section h4
+{
+    margin: 10px;
+    margin-top: 40px;
+    font-family: cursive;
+    
+}
+
+footer
+{
+    background-color: whitesmoke;
+}
+.piepagina
+{
+    margin: 50px;
+    font-family: cursive;
+    text-align: center;
 }
