@@ -1,0 +1,10 @@
+header
+{
+    background-color: green;
+    color: white;
+}
+header h1
+{
+    margin: 5px 10px 10px 5px;
+    font-family: cursive;
+}
