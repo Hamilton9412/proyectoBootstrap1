@@ -8,3 +8,18 @@ header h1
     margin: 5px 10px 10px 5px;
     font-family: cursive;
 }
+
+main section h1
+{
+    margin: 30px 10px 10px 5px;
+}
+main section p
+{
+    margin: 5px 10px 10px 10px;
+    font-family: cursive;
+}
+main section a
+{
+    padding: 10px;
+    font-family: cursive;
+}
