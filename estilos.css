@@ -14,7 +14,7 @@ main section h1
     margin: 20px;
     font-family: cursive;
 }
-main section p
+.parrafoprincipal
 {
     margin: 20px;
     font-family: cursive;
@@ -29,7 +29,18 @@ main section h4
     margin: 10px;
     margin-top: 40px;
     font-family: cursive;
-    
+}
+.parrafitos
+{
+    margin: 10px;
+    font-family: cursive;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+.links
+{
+    margin: 10px;
+    font-family: cursive;
 }
 
 footer
