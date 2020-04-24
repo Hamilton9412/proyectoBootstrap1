@@ -5,14 +5,19 @@ header
 }
 header h1
 {
-    margin: 5px 10px 10px 5px;
+    margin: 5px 10px 10px 20px;
     font-family: cursive;
 }
 
+.cabecera
+{
+    background-color: #CEE6D0;
+}
 main section h1
 {
     margin: 20px;
     font-family: cursive;
+    text-align: start;
 }
 .parrafoprincipal
 {
@@ -29,18 +34,22 @@ main section h4
     margin: 10px;
     margin-top: 40px;
     font-family: cursive;
+    text-align: start;
 }
 .parrafitos
 {
     margin: 10px;
     font-family: cursive;
-    text-align: justify;
     margin-bottom: 50px;
 }
 .links
 {
     margin: 10px;
     font-family: cursive;
+}
+.orglinks
+{
+    text-align: start;
 }
 
 footer
@@ -52,4 +61,34 @@ footer
     margin: 50px;
     font-family: cursive;
     text-align: center;
+}
+
+@media screen and (max-width: 768px)
+{
+    main section h1
+    {
+        text-align: center;
+    }
+    .parrafoprincipal
+    {
+        margin: 50px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-align: justify;
+    }
+    main section h4
+    {
+        text-align: center;
+    }
+    .parrafitos
+    {
+        text-align: justify;
+        margin: 50px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .orglinks
+    {
+        text-align: end;
+    }
 }
